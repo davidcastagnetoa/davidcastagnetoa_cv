@@ -159,6 +159,18 @@ img {
 }
 
 /*=============== HEADER & NAV===============*/
+#header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--body-color);
+  z-index: var(--z-fixed);
+}
+.nav{
+  height: var(--header-height);
+  display: flex;
+}
 
 
 /* Active link */
